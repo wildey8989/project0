@@ -29,6 +29,14 @@ a:hover{
   height: 80vh;
 }
 
+.image-text {
+  color: #4285F4;
+  font-size: 16px;
+  position: relative;
+  bottom: 21px;
+  right: -215px;
+}
+
 .form-input {
   display: flex;
   flex-direction: column;
