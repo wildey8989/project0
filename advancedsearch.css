@@ -16,6 +16,10 @@ body {
   font-size: 13px;
 }
 
+#nav-link:hover {
+  text-decoration: underline;
+}
+
 #advanced-search {
   display: flex;
   align-items: center;
@@ -38,6 +42,29 @@ body {
   width: 55%;
 }
 
+#to-do-text {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#advanced-search-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#advanced-search-button {
+  margin-right: 314px;
+  color: white;
+  font-weight: bold;
+  background-color: #4A8CF7;
+  border: 0;
+  height: 30px;
+  padding: 10px 10px 25px 10px;
+  border-radius: 3px;
+}
+
 .top {
   display: flex;
   justify-content: space-between;
@@ -53,7 +80,7 @@ body {
 }
 
 .input-field > input {
-  width: 50%;
+  width: 53%;
   height: 20px;
 }
 
@@ -69,5 +96,5 @@ body {
 
 .mono-text {
   font-family: monospace;
-  width: 35%;
+  width: 32%;
 }
